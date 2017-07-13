@@ -50,6 +50,7 @@ startNoVNC () {
 
 case "$1" in
 	'')
+		startNoVNC
 		#Check for mounted database files
 		if [ "$(ls -A /u01/app/oracle/oradata)" ]; then
 			echo "found files in /u01/app/oracle/oradata Using them instead of initial database"
