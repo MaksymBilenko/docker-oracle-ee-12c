@@ -1,4 +1,4 @@
-FROM sath89/docker-oracle-ee-12c-base:latest
+FROM quay.io/maksymbilenko/oracle-ee-12c-base:latest:latest
 
 ENV DBCA_TOTAL_MEMORY 4096
 ENV WEB_CONSOLE true
