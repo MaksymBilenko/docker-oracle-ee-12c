@@ -1,4 +1,4 @@
-FROM quay.io/maksymbilenko/oracle-ee-12c-base:latest:latest
+FROM quay.io/maksymbilenko/oracle-ee-12c-base:latest
 
 ENV DBCA_TOTAL_MEMORY 4096
 ENV WEB_CONSOLE true
